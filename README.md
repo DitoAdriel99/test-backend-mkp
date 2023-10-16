@@ -21,7 +21,7 @@ The project follows a clean architecture pattern, separating concerns into diffe
 ## Quick Start
 ### Entity Relationship Diagram
 ```bash
-![Alt text](https://github.com/DitoAdriel99/test-backend-mkp/db-design.png)
+![DB DESIGN](https://github.com/DitoAdriel99/test-backend-mkp/blob/main/db-design.png)
 ```
 Pada rancangan di atas, setiap produk yang dijual dan penjualan yang terjadi direkam menggunakan FK yang menghubungkan entitas Product dan Sales dengan entitas lainnya. Informasi penjualan mencakup detail penjualan seperti produk yang dijual, customer yang melakukan pembelian, tanggal penjualan, dan jumlah produk yang terjual. Stok produk juga terkait dengan entitas Produk untuk memastikan kontrol stok yang tepat.
 
