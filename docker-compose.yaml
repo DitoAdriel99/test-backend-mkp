@@ -22,7 +22,7 @@ services:
       - DB_DATABASE=mkp_test_db
       - DB_HOST=database
       - DB_PORT=5432
-      - PORT=1111
+      - PORT=3000
       - KEY=ditoadriel1234567890
       - EXPIRED=2
     ports:
