@@ -6,7 +6,7 @@ services:
       - POSTGRES_PASSWORD=admin
       - POSTGRES_DB=mkp_test_db
     ports:
-      - 5432:5432
+      - 5433:5432
 
   app:
     build:
@@ -26,4 +26,4 @@ services:
       - KEY=ditoadriel1234567890
       - EXPIRED=2
     ports:
-      - 1111:1111
+      - 3000:3000
